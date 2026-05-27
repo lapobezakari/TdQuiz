@@ -31,9 +31,9 @@ function Home() {
       <div style={S.card}>
         <div style={{ fontSize:'3.5rem', marginBottom:'0.5rem' }}>🧩</div>
         <h1 style={S.title}>BRAINWAVE</h1>
-        <p style={S.sub}>SCIENCE · HISTOIRE · CINÉMA · MUSIQUE</p>
+        <p style={S.sub}>F1 · MOTOGP · NBA · MANGA · ANIME</p>
         <div style={S.cat}>
-          {['🔬 Science','📜 Histoire','🌍 Géographie','🎬 Cinéma','🎵 Musique'].map(c => (
+           {['🏎 F1','🏍 MotoGP','🏀 NBA','📚 Manga','🎌 Anime'].map(c => (
             <span key={c} style={S.badge}>{c}</span>
           ))}
         </div>
